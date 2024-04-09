@@ -1,0 +1,13 @@
+.courseContents {
+  width: 100%;
+  height: auto;
+  padding-left: 20px;
+  display: none !important;
+
+  &.active {
+    display: flex !important;
+  }
+  &.inactive {
+    display: none !important;
+  }
+}

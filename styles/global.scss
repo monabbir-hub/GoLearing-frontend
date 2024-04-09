@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+
+:root {
+  // --primaryColor: #ec3c31;
+  --primaryColor: #f8b03c;
+  --primaryShadeColor: #fdebe8;
+  --borderOutlineColor: #cccccc;
+  --placeholderColor: #606060;
+  --textColor: #555555;
+  --bodyBackground: #f2f4f8;
+  --successGreen: #00ff84;
+  --dangerRed: #ffc0c7;
+  --questionBG: #e4e8ee;
+  --fontPrimary: #002333;
+  --active: #2dbf64;
+  --ptSans: "PT Sans", sans-serif;
+}
+
+.page-title {
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+
+  & > span {
+    display: flex;
+    gap: 1rem;
+  }
+
+  & > span > small {
+    font-size: 10px;
+    margin-left: 5px;
+  }
+}
+
+.ReactModal__Overlay {
+  z-index: 2;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+button:disabled {
+  background: lightGrey !important;
+  border: 1px solid lightGrey !important;
+}
+
+.adminTable__pagination .selected {
+  background: var(--primaryColor);
+  color: #ffffff;
+}
+
+
+.search:hover{
+   background-color: #f8b03c !important;
+   transition:all .2s;
+   color:white !important;
+}

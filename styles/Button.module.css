@@ -1,0 +1,90 @@
+.button {
+  background: var(--successGreen);
+  color: var(--fontPrimary);
+  padding: 0.6rem 1.2rem;
+  font-weight: 600;
+  font-size: 15px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 0px;
+}
+
+.button:hover {
+  background: var(--fontPrimary);
+  color: #fff;
+}
+
+.button:hover span {
+  color: #fff;
+}
+
+.normalButton {
+  background: var(--primaryColor);
+  color: white;
+  padding: 0.6rem 1.2rem;
+  font-weight: 600;
+  /* font-size: 12.5px; */
+  /* text-transform: uppercase; */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 0px;
+  min-width: 150px;
+  margin-right: 10px;
+}
+
+.normalButton:hover {
+  background: var(--fontPrimary);
+  color: #fff;
+}
+
+.normalButton:hover span {
+  color: #fff;
+}
+
+.normalButtonSel {
+  background: var(--fontPrimary);
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  font-weight: 600;
+  font-size: 12.5px;
+  /* text-transform: uppercase; */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 0px;
+  min-width: 150px;
+  margin-right: 10px;
+}
+
+.quizSubmitButton {
+  background: #262a5b;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  font-weight: 600;
+  font-size: 12.5px;
+  /* text-transform: uppercase; */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 0px;
+  min-width: 150px;
+  margin-right: 10px;
+}

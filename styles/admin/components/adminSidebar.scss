@@ -1,0 +1,29 @@
+.adminSidebar {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  // gap: 5px;
+
+  &__item {
+    padding: 15px 25px;
+    background: #e5e5e5;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: var(--ptSans);
+    cursor: pointer;
+    color: var(--fontPrimary);
+
+    &.active {
+      color: var(--primaryColor);
+      background: var(--primaryShadeColor);
+    }
+
+    &:hover {
+      color: var(--primaryColor);
+      background: var(--primaryShadeColor);
+    }
+  }
+}

@@ -1,0 +1,17 @@
+@media only screen and (max-width: 768px) {
+  .body {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 10px;
+  }
+  .content {
+    min-height: 250px;
+    margin-bottom: 25px;
+  }
+
+  .menu {
+    overflow-y: auto;
+    width: auto;
+    height: 200px;
+  }
+}

@@ -1,0 +1,39 @@
+.courseContent {
+  width: 100%;
+  height: auto;
+  background: #FFFFFF;
+
+  &__trigger {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+
+    &:hover {
+      background: var(--primaryShadeColor);
+      color: var(--primaryColor);
+    }
+
+    & > button {
+      margin-left: auto;
+
+      & > svg {
+        width: 25px;
+        height: 25px;
+      }
+    }
+
+    & button {
+      border: none;
+      outline: none;
+      background: transparent;
+    }
+
+    & > span {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

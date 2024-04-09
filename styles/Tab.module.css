@@ -1,0 +1,45 @@
+.reactTabs {
+  margin-top: 20px;
+}
+
+.tablist {
+  /* cursor: pointer; */
+  /* text-align: center; */
+}
+
+.tablist p {
+  /* font-size: 1.2vw; */
+  cursor: pointer;
+  margin-left: 30px;
+  font-size: large;
+}
+
+.tablist p:hover {
+  color: var(--primaryColor);
+}
+
+.tab_selected {
+  color: var(--primaryColor);
+  cursor: pointer;
+}
+/*
+.reactTabs__tab-panel {
+  background-color: aqua;
+}
+
+
+.reactTabs__tab-panel--selected {
+  display: block;
+}
+
+.reactTabs__tab {
+  padding-left: 24px;
+}
+
+.reactTabs__tab--selected {
+  padding-left: 21px;
+}
+
+.panel-content {
+  text-align: center;
+} */

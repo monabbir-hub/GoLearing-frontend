@@ -1,0 +1,7 @@
+.profileInfo p {
+  border: 1px solid rgb(197, 196, 196);
+  border-radius: 5px;
+  padding: 2%;
+  color: #0a033c;
+  box-shadow: 2px 2px 2px rgb(197, 196, 196);
+}

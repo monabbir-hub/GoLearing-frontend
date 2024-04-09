@@ -1,0 +1,16 @@
+.adminFormLabel {
+  display: block;
+
+  & > span {
+    display: block;
+    font-family: var(--ptSans);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+}

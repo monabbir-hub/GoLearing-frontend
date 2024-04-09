@@ -1,0 +1,10 @@
+.courseButton {
+  margin-bottom: 30px;
+}
+
+.courseButton span {
+  /* background: var(--primaryColor); */
+  font-weight: bold;
+  padding: 5%;
+  border-radius: 10px;
+}

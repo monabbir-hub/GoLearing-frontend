@@ -1,0 +1,21 @@
+.adminLayout {
+  & > div {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    gap: 20px;
+    width: 1650px;
+    max-width: 100%;
+    // margin-left: auto;
+    // margin-right: auto;
+  }
+
+  &__sidebar {
+    flex: 200px 0 0;
+  }
+
+  &__content {
+    flex: 1;
+    min-width: 700px;
+  }
+}

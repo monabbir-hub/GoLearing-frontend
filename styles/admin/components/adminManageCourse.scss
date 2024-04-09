@@ -1,0 +1,147 @@
+.adminManageCourse {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  grid-gap: 2rem;
+
+  &__content {
+    & > h3 {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 26px;
+      color: #000000;
+      margin-bottom: 2rem;
+      font-family: var(--ptSans);
+    }
+
+    & > h4 {
+      display: block;
+      font-family: var(--ptSans);
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 21px;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+  }
+
+  &__label {
+    display: block;
+    font-family: var(--ptSans);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  &__timestamps {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  &__timestamp {
+    display: grid;
+    grid-template-columns: 1fr 2fr 45px;
+    gap: 1rem;
+
+    & button {
+      background: #FFFFFF;
+      border: 1px solid var(--borderOutlineColor);
+      box-sizing: border-box;
+      border-radius: 4px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 45px;
+      height: 45px;
+      margin: 0;
+      color: #666666;
+    }
+  }
+
+  &__nothing {
+    & > div {
+      border: 1px dashed var(--primaryColor);
+      background: var(--primaryShadeColor);
+      color: var(--primaryColor);
+      border-radius: 2px;
+    }
+  }
+
+  &__linkList {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  &__listItem {
+    display: grid;
+    grid-template-columns: 1fr 1fr 45px;
+    gap: 1rem;
+
+    & button {
+      background: #FFFFFF;
+      border: 1px solid var(--borderOutlineColor);
+      box-sizing: border-box;
+      border-radius: 4px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 45px;
+      height: 45px;
+      margin: 0;
+      color: #666666;
+    }
+  }
+
+  &__emptyQuestions {
+    border: 1px dashed var(--primaryColor);
+    background: var(--primaryShadeColor);
+    border-radius: 2px;
+    padding: 2rem;
+    margin-top: 1rem;
+    text-align: center;
+    
+    & > p {
+      max-width: 400px;
+      color: var(--primaryColor);
+      margin: 0 auto;
+    }
+  }
+
+  &__questions {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  &__question {
+    display: flex;
+    gap: 1rem;
+
+    & > span {
+      border: 1px solid var(--borderOutlineColor);
+      border-radius: 3px;
+      padding: 1rem;
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      & > div:last-child {
+        & > svg {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

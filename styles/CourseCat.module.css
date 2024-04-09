@@ -1,0 +1,33 @@
+.courseCatBanner {
+  position: relative;
+}
+
+.courseCatBanner img {
+  width: 100%;
+}
+
+.courseCatBanner p {
+  position: absolute;
+  color: beige;
+  top: 30px;
+  left: 50px;
+  font-size: 4vw;
+  font-weight: bolder;
+}
+
+@media only screen and (max-width: 800px) {
+  .swipe {
+    display: none;
+  }
+  .nonSwipe {
+    display: "grid";
+  }
+}
+@media only screen and (min-width: 801px) {
+  .nonSwipe {
+    display: none;
+  }
+  .swipe {
+    display: block;
+  }
+}

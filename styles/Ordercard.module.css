@@ -1,0 +1,71 @@
+.courseCard {
+  background-color: white;
+  padding: 1%;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: lightgray;
+  border-width: 1px;
+  width: 100%;
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+
+.courseCard span {
+  font-weight: bolder;
+}
+
+.courseCard img {
+  width: "100%";
+  border-radius: 20px;
+}
+
+.courseCard:hover {
+  /* opacity: 0.9; */
+  /* cursor: pointer; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.myCourseCard {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  max-width: 300px;
+}
+
+.myCourseCardImage {
+  min-height: 200px;
+  border-bottom: 1px solid rgb(240, 240, 240);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myCourseCard p {
+  font-size: large;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.myCourseCard:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.progressbar {
+  color: #ff7255;
+}
+.continuecourse:hover {
+  background-color: rgb(219, 255, 219);
+}
+
+.certificateCard {
+  background-color: white;
+  padding: 25px;
+  border-radius: 20px;
+
+  margin-bottom: 10px;
+}
+
+.certificateCard:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

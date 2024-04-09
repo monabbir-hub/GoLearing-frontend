@@ -1,0 +1,69 @@
+.dashboardCategories,
+.dashboardCategories__wrapper {
+  width: 100%;
+  height: auto;
+}
+
+.dashboardCategories__item {
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dashboardCategories__item > img {
+  border-radius: 4px;
+  margin-right: 1rem;
+}
+
+.dashboardCategories__item > span {
+  font-size: 1rem;
+}
+
+.dashboardCategories__actions {
+  margin-left: auto;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.dashboardCategories__actions > button {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: currentColor;
+  cursor: pointer;
+  font-size: 0.8rem;
+  width: 2rem;
+  height: 2rem;
+  background: #f8b03c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.dashboardCategories__wrapper > button {
+  background: #f8b03c;
+  margin: 1rem 0;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.dashboardCategories__wrapper > button > svg {
+  margin-right: 0.5rem;
+}
+
+.dashboardCategories__wrapper.pl-3 {
+  padding-left: 1rem;
+  margin-top: 0.5rem;
+}
